@@ -6,4 +6,36 @@
 \hypertarget {chap-2}{}
 \contentsline {chapter}{\numberline {3}定义和技术预备知识}{9}{chapter.3}%
 \hypertarget {chap-3}{}
-\contentsline {chapter}{Bibliography}{11}{chapter*.2}%
+\contentsline {chapter}{\numberline {4}交互式证明系统}{11}{chapter.4}%
+\hypertarget {chap-4}{}
+\contentsline {chapter}{\numberline {5}使用Fiat-Shamir得到公开可验证非交互式论证}{13}{chapter.5}%
+\hypertarget {chap-5}{}
+\contentsline {chapter}{\numberline {6}前端：将计算机程序转化为电路}{15}{chapter.6}%
+\hypertarget {chap-6}{}
+\contentsline {chapter}{\numberline {7}基于交互式证明的首个电路可满足性简洁论证}{17}{chapter.7}%
+\hypertarget {chap-7}{}
+\contentsline {chapter}{\numberline {8}MIP和简洁论证系统}{19}{chapter.8}%
+\hypertarget {chap-8}{}
+\contentsline {chapter}{\numberline {9}PCP和简洁论证系统}{21}{chapter.9}%
+\hypertarget {chap-9}{}
+\contentsline {chapter}{\numberline {10}交互式预言证明}{23}{chapter.10}%
+\hypertarget {chap-10}{}
+\contentsline {chapter}{\numberline {11}零知识证明和论证系统}{25}{chapter.11}%
+\hypertarget {chap-11}{}
+\contentsline {chapter}{\numberline {12}基于离散对数困难性的 $\Sigma $-协议和承诺}{27}{chapter.12}%
+\hypertarget {chap-12}{}
+\contentsline {chapter}{\numberline {13}通过承诺并证明和遮盖多项式实现零知识}{29}{chapter.13}%
+\hypertarget {chap-13}{}
+\contentsline {chapter}{\numberline {14}基于离散对数困难性的多项式承诺}{31}{chapter.14}%
+\hypertarget {chap-14}{}
+\contentsline {chapter}{\numberline {15}基于配对的多项式承诺}{33}{chapter.15}%
+\hypertarget {chap-15}{}
+\contentsline {chapter}{\numberline {16}多项式承诺总结}{35}{chapter.16}%
+\hypertarget {chap-16}{}
+\contentsline {chapter}{\numberline {17}线性PCP和简洁论证}{37}{chapter.17}%
+\hypertarget {chap-17}{}
+\contentsline {chapter}{\numberline {18}SNARK组合和递归}{39}{chapter.18}%
+\hypertarget {chap-18}{}
+\contentsline {chapter}{\numberline {19}实用论证系统鸟瞰}{41}{chapter.19}%
+\hypertarget {chap-19}{}
+\contentsline {chapter}{Bibliography}{43}{chapter*.2}%

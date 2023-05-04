@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.31)  4 MAY 2023 18:50
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.31)  4 MAY 2023 19:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1487,6 +1487,70 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mtc4.
 \openout3 = `main.mtc4'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc5.
+\openout3 = `main.mtc5'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc6.
+\openout3 = `main.mtc6'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc7.
+\openout3 = `main.mtc7'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc8.
+\openout3 = `main.mtc8'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc9.
+\openout3 = `main.mtc9'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc10.
+\openout3 = `main.mtc10'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc11.
+\openout3 = `main.mtc11'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc12.
+\openout3 = `main.mtc12'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc13.
+\openout3 = `main.mtc13'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc14.
+\openout3 = `main.mtc14'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc15.
+\openout3 = `main.mtc15'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc16.
+\openout3 = `main.mtc16'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc17.
+\openout3 = `main.mtc17'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc18.
+\openout3 = `main.mtc18'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc19.
+\openout3 = `main.mtc19'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc20.
+\openout3 = `main.mtc20'.
+
  [2] (./main.toc)
 \tf@toc=\write10
 \openout10 = `main.toc'.
@@ -1503,11 +1567,87 @@ Chapter 2.
 
 ]
 Chapter 3.
-) [9] [10
+) (./chapter/04IP.tex [9] [10
 
-] [11
+]
+Chapter 4.
+) (./chapter/05FS.tex [11] [12
 
-] [12
+]
+Chapter 5.
+) (./chapter/06FrontEnds.tex [13] [14
+
+]
+Chapter 6.
+) (./chapter/07argfromip.tex [15] [16
+
+]
+Chapter 7.
+) (./chapter/08MIP.tex [17] [18
+
+]
+Chapter 8.
+) (./chapter/09PCP.tex [19] [20
+
+]
+Chapter 9.
+) (./chapter/10IOP.tex [21] [22
+
+]
+Chapter 10.
+) (./chapter/11ZKP.tex [23] [24
+
+]
+Chapter 11.
+) (./chapter/12sigma.tex [25] [26
+
+]
+Chapter 12.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Sigma' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+) (./chapter/13CP.tex [27] [28
+
+]
+Chapter 13.
+) (./chapter/14PCDL.tex [29] [30
+
+]
+Chapter 14.
+) (./chapter/15PCPairing.tex [31] [32
+
+]
+Chapter 15.
+) (./chapter/16PC.tex [33] [34
+
+]
+Chapter 16.
+) (./chapter/17LPCP.tex [35] [36
+
+]
+Chapter 17.
+) (./chapter/18Recursion.tex [37] [38
+
+]
+Chapter 18.
+) (./chapter/19SNARK.tex [39] [40
+
+]
+Chapter 19.
+) [41] [42
+
+] [43
+
+] [44
 
 ]
 runsystem(makeindex -s index.ist main.idx)...executed safely (allowed).
@@ -1536,18 +1676,18 @@ This document will not have a glossary.
 
 (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 593F96F5607945D7EB6FD3583A6A7157;722.
+(rerunfilecheck)             Checksum: B2B5A60331A9D90C01416326A1DE8A29;2947.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39422 strings out of 476683
- 786550 string characters out of 5804047
+ 39717 strings out of 476683
+ 791138 string characters out of 5804047
  1871018 words of memory out of 5000000
- 58835 multiletter control sequences out of 15000+600000
- 529560 words of font info for 127 fonts, out of 8000000 for 9000
+ 59032 multiletter control sequences out of 15000+600000
+ 537461 words of font info for 158 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 96i,11n,100p,2292b,4694s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 96i,14n,100p,2292b,4698s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (12 pages).
+Output written on main.pdf (44 pages).
