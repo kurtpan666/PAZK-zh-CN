@@ -3,21 +3,9 @@
 %%%%%%%%%%%%%%%%%%%%% preamble %%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[11pt,twoside]{book}
-
+\usepackage[mono=false]{libertine} % new linux font, ignore mono
 
 \usepackage{luatex85}
-
-\usepackage{fontspec}
-\usepackage{xeCJK}
-\setCJKmainfont{LXGW WenKai Mono}
-\linespread{1.5}
-\usepackage{ctex}
-\renewcommand{\contentsname}{目录}
-
-
-
-
-\usepackage{ulem}
 
 %\renewcommand{\baselinestretch}{1.05}
 \usepackage{amsmath,amsthm,amssymb,mathrsfs,amsfonts,dsfont}
@@ -41,7 +29,7 @@
 \hypersetup{
     colorlinks=true,
     citecolor=magenta,
-    linkcolor=magenta,
+    linkcolor=blue,
     filecolor=green,      
     urlcolor=cyan,
     % hypertexnames=false,
@@ -188,9 +176,9 @@ delim_0 "\\nobreak\\dotfill"
 
 \begin{document}
 
-\title{\bf \huge 证明、论证与零知识}
-\author{Kurt Pan}
-\date{\today}
+\title{\bf \huge Study Notes}
+\author{Jue Xu}
+\date{Update on \today}
 \maketitle
 \setcounter{tocdepth}{2}
 \setcounter{minitocdepth}{1} 
@@ -202,20 +190,20 @@ delim_0 "\\nobreak\\dotfill"
     \label{toc-contents}
 \end{multicols}
 
-% 	\listoffigures
-% 	% \listoftables
-% \begin{multicols}{2}
-% 	\listoftheorems[ignoreall,show={theorem}]
-% \end{multicols}
+	\listoffigures
+	% \listoftables
+\begin{multicols}{2}
+	\listoftheorems[ignoreall,show={theorem}]
+\end{multicols}
 
-% 	\renewcommand{\listtheoremname}{List of Definitions}
-% \begin{multicols}{2}
-% 	\listoftheorems[ignoreall,show={definition}]
-% \end{multicols}
+	\renewcommand{\listtheoremname}{List of Definitions}
+\begin{multicols}{2}
+	\listoftheorems[ignoreall,show={definition}]
+\end{multicols}
 
 	% \printglossaries
 	% \printglossary[type=\acronymtype]
-	% \printglossary
+	\printglossary
 	% \printglossary[title=List of terms, toctitle=List of terms]
 
 	% bib2gls
@@ -227,30 +215,23 @@ delim_0 "\\nobreak\\dotfill"
 
 %%%%%%%%%%%%%%%Content%%%%%%%%%%%%%%%
 % \mainmatter % separat the number of toc and mainmatter
-% 原始模版内容
-% \input{./chapter/preface.tex}
+\input{./chapter/preface.tex}
 
-% \part{Mathematics}
-% \input{./chapter/discrete_math.tex}
+\part{Mathematics}
+\input{./chapter/discrete_math.tex}
 
-% \part{Computer Science}
-% % \input{./chapter/complexity.tex}
-% \input{./chapter/machine_learning.tex}
-% % \input{./chapter/algorithms.tex}
+\part{Computer Science}
+% \input{./chapter/complexity.tex}
+\input{./chapter/machine_learning.tex}
+% \input{./chapter/algorithms.tex}
 
-% \part{Physics}
-% \input{./chapter/quantum_mechanics.tex}
-% % \input{./chapter/quantum_field_theory.tex}
+\part{Physics}
+\input{./chapter/quantum_mechanics.tex}
+% \input{./chapter/quantum_field_theory.tex}
 
-% \begin{appendices}
-%   \input{./chapter/appendix_formula.tex}
-%   \end{appendices}
-
-\input{./chapter/01Introduction.tex}
-\input{./chapter/02Randomness.tex}
-\input{./chapter/03Definition.tex}
-
-
+\begin{appendices}
+\input{./chapter/appendix_formula.tex}
+\end{appendices}
 
 \backmatter
 
