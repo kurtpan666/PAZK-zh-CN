@@ -15,7 +15,62 @@
 
 对密码学相关的高度特定化的陈述（如证明离散对数的知识\cite{Sch89}）的实用零知识协议已经有了数十年了。然而，通用零知识协议直到最近才变得足够高效，可以用于密码部署中。通用的意思是，协议设计技术适用于任意计算。这一令人兴奋的进展包括了漂亮的新协议的提出，并引发了各界对零知识证明和论证的浓厚兴趣。本书旨在以统一的方式让人们能够轻松理解这些协议设计的主要思想和方法。
 
+\subsubsection{首次阅读可跳过的材料} Sections 4.2-4.5 are devoted to detailed example applications of the sum-check protocol and explaining how to efficiently implement the prover within it. While these sections contain interesting results and are useful for familiarizing oneself with the sum-check proto- col, subsequent chapters do not depend on them. Similarly, Chapter 5 on the Fiat-Shamir transformation and Chapter 6 on front-ends are optional on a first reading. Sections 9.3 and 9.4 provide PCPs that are mainly of historical interest and can be skipped.
+Chapters 11 and 13 offer treatments of zero-knowledge that largely stand on their own. Similarly, Chapter 18 discusses SNARK composition and stands on its own.
+
 
 
 \section{数学证明}
+本书涵盖了数学证明的不同概念及其在计算机科学和密码学中的应用。 非正式地，我们所说的证明是指任何能使某人相信某项陈述是真实的东西，而“证明系统”是任何决定什么是令人信服的证明和什么不是令人信服的证明的程序。 也就是说，证明系统由验证程序指定，该验证程序将任何陈述和声称该陈述为真的“证明”作为输入，并决定证明是否有效。
+我们希望证明系统具有哪些属性？ 这里有四个明显的。
+\begin{itemize}
+    \item 任何真实的陈述都应该有其有效性的令人信服的证据。 此属性通常称为完整性。
+    \item 任何虚假陈述都不应有令人信服的证据。 此属性称为稳健性。
+    \item 理想情况下，验证程序将是“有效的”。 粗略地说，这意味着简单的陈述应该有简短的（令人信服的）证明，可以快速检查。
+    \item 理想情况下，证明也应该是有效的。 粗略地说，这意味着简单的陈述应该有可以快速找到的简短（令人信服的）证明。
+\end{itemize}
+
+
+传统上，数学证明是可以逐行编写并检查其正确性的东西。 这种传统的证明概念正是复杂性类 $\mathbf{N P}^8$ 所捕获的概念。但是，$^8$，在过去的 $30+$ 年里，计算机科学家研究了更普遍和奇异的证明概念 . 这改变了计算机科学家对证明某事意味着什么的观念，并导致了复杂性理论和密码学的重大进步。
+
+This survey covers different notions of mathematical proofs and their applications in computer science and cryptography. Informally, what we mean by a proof is anything that convinces someone that a statement is true, and a "proof system" is any procedure that decides what is and is not a convincing proof. That is, a proof system is specified by a verification procedure that takes as input any statement and a claimed "proof" that the statement is true, and decides whether or not the proof is valid.
+What properties do we want in a proof system? Here are four obvious ones.
+- Any true statement should have a convincing proof of its validity. This property is typically referred to as completeness.
+- No false statement should have a convincing proof. This property is referred to as soundness.
+- Ideally, the verification procedure will be "efficient". Roughly, this means that simple statements should have short (convincing) proofs that can be checked quickly.
+- Ideally, proving should be efficient too. Roughly, this means that simple statements should have short (convincing) proofs that can be found quickly.
+
+Traditionally, a mathematical proof is something that can be written and checked line-by-line for correctness. This traditional notion of proof is precisely the one captured by the complexity class $\mathbf{N P}^8$ However, $^8$, over the last $30+$ years, computer scientists have studied much more general and exotic notions of proofs. This has transformed computer scientists' notions of what it means to prove something, and has led to major advances in complexity theory and cryptography.
+
 \section{我们将研究哪些非传统证明？}
+本书中研究的所有证明概念本质上都是概率性的。
+即验证程序将做出随机选择，且可靠性将以（非常）高的概率在这些随机选择上成立。 
+也就是说，验证程序会以（非常）小的概率宣布假陈述为真。
+
+\subsection{交互式证明 （IP）}
+To understand what an interactive proof is, it is helpful to think of the following application. Imagine a business (verifier) that is using a commercial cloud computing provider to store and process its data. The business sends all of its data up to the cloud (prover), which stores it, while the business stores only a very small “secret” summary of the data (meaning that the cloud does not know the user’s secret summary). Later, the business asks the cloud a question about its data, typically in the form of a computer program f that the business wants the cloud to run on its data using the cloud’s vast computing infrastructure. The cloud does so, and sends the user the claimed output of the program, f (data). Rather than blindly trust that the cloud executed the program on the data correctly, the business can use an interactive proof system (IP) to obtain a formal guarantee that the claimed output is correct.
+In the IP, the business interrogates the cloud, sending a sequence of challenges and receiving a sequence of responses. At the end of the interrogation, the business must decide whether to accept the answer as valid or reject it as invalid. See Figure 1.1 for a diagram of this interaction.
+Completeness of the IP means that if the cloud correctly runs the program on the data and follows the prescribed protocol, then the user will be convinced to accept the answer as valid. Soundness of the IP means that if the cloud returns the wrong output, then the user will reject the answer as invalid with high probability no matter how hard the cloud works to trick the user into accepting the answer as valid. Intuitively, the interactive nature of the IP lets the business exploit the element of surprise (i.e., the fact that the cloud cannot predict the business’s next challenge) to catch a lying cloud in a lie.
+It is worth remarking on an interesting difference between IPs and traditional static proofs. Static proofs are transferrable, meaning that if Peggy (prover) hands Victor (verifier) a proof that a statement is true, Victor can turn around and convince Tammy (a third party) that the same statement is true, simply by copying the proof. In contrast, an interactive proof may not be transferrable. Victor can try to convince Tammy that the statement is true by sending Tammy a transcript of his interaction with Peggy, but Tammy will not be convinced unless Tammy trusts that Victor correctly represented the interaction. This is because soundness of the IP only holds if, every time Peggy sends a response to Victor, Peggy does not know what challenge Victor will respond with next. The transcript alone does not give Tammy a guarantee that this holds.
+
+\subsection{论证系统}
+论证系统就是IP，只是其中的可靠性性要求只需要防止在多项式时间内运行的作弊证明者。\footnote{这大致意味着如果输入的大小为 $n$，那么证明者的运行时间（对于足够大的 $n$ 值）应该以 $n$ 的某个常数幂为界，例如 $n^{10} $。}
+论证系统会使用密码学。 
+粗略地说，在论证系统中，作弊证明者无法欺骗验证者接受假陈述，除非它攻破了某个密码系统，且破解该密码系统被认为需要超多项式时间。
+
+\subsection{多证明者交互式证明（MIP）/概率可检验证明（PCP）等}
+MIP 类似于 IP，但有多个证明者，并且假设这些证明者不会相互共享他们从验证者那里收到的挑战的信息。 MIPs 的一个常见类比是在审讯之前将两名或更多犯罪嫌疑人放在不同的房间里，看他们是否能讲出一致的故事。 
+执法人员可能不会对MIPs研究为这种做法提供了理论依据感到意外。
+具体来说，MIPs的研究表明，将证明者锁在不同的房间里，然后分别审问他们，这可以说服审问者相信比在一起审问时更复杂的陈述。
+
+In a PCP, the proof is static as in a traditional mathematical proof, but the verifier is only allowed to read a small number of (possibly randomly chosen) characters from the proof. ${ }^{10}$ This is in analogy to a lazy referee for a mathematical journal, who does not feel like painstakingly checking the proofs in a submitted paper for correctness. The PCP theorem [ $\mathrm{ALM}^{+} 98$, AS98] essentially states that any traditional mathematical proof can be written in a format that enables this lazy reviewer to obtain a high degree of confidence in the validity of the proof by inspecting just a few words of it.
+
+在 PCP 中，证明与传统数学证明一样是静态的，但验证者只能从证明中读取少量（可能是随机选择的）字符。 \footnote{More precisely, a PCP verifier is allowed to read as much of the proof as it wants. However, for the PCP to be considered efficient, it must be the case that the verifier only needs to read a tiny fraction of the proof to ascertain with high confidence whether or not the proof is valid.
+} 这类似于数学期刊的懒惰审稿人，他不想煞费苦心地检查提交论文中的证明是否正确。 
+PCP 定理 [ $\mathrm{ALM}^{+} 98$, AS98] 本质上指出，任何传统的数学证明都可以用一种格式编写，使这个懒惰的审阅者能够对证明的有效性获得高度的信心 通过检查它的几个词。
+
+Philosophically, MIPs and PCPs are extremely interesting objects to study, but they are not directly applicable in most cryptographic settings, because they make unrealistic or onerous assumptions about the prover(s). For example, soundness of any MIP only holds if the provers do not share information with each other regarding what challenges they receive from the verifier. This is not directly useful in most cryptographic settings, because typically in these settings there is only a single prover, and even if there is more than one, there is no way to force the provers not to communicate. Similarly, although the verifier only reads a few characters of a PCP, a direct implementation of a PCP would require the prover to transmit the whole proof to the verifier, and this would be the dominant cost in most real-world scenarios (the example of a lazy journal referee notwithstanding). That is, once the prover transmits the whole proof to the verifier, there is little real-world benefit to having the verifier avoid reading the whole proof.
+
+However, by combining MIPs and PCPs with cryptography, we will see how to turn them into argument systems, and these are directly applicable in cryptographic settings. For example, we will see in Section 9.2 how to turn a PCP into an argument system in which the prover does not have to send the whole PCP to the verifier.
+
+Section 10.2 of this survey in fact provides a unifying abstraction, called polynomial IOPs, of which all of the IPs, MIPs, and PCPs that we cover are a special case. It turns out that any polynomial IOP can be transformed into an argument system with short proofs, via a cryptographic primitive called a polynomial commitment scheme.
