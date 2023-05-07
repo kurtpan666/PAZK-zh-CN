@@ -21,6 +21,8 @@
 \newcommand{\dotemph}[1]{\CJKunderdot{#1}}
 
 
+
+
 %\renewcommand{\baselinestretch}{1.05}
 \usepackage{amsmath,amsthm,amssymb,mathrsfs,amsfonts,dsfont}
 \usepackage{epsfig,graphicx}
@@ -107,6 +109,9 @@ delim_0 "\\nobreak\\dotfill"
 \addtocontents{toc}{\protect\hypertarget{chap-\thechapter}{}}}
 \titleformat{name=\chapter,numberless}
   {\normalfont\huge\bfseries}{}{-20pt}{\Huge#1}
+
+\titleformat{\subsubsection}[runin]
+  {\normalfont\large\bfseries}{}{}{#1}[]
 
 
 %%%%%%%%%%%%%%%%%%% fancyhdr %%%%%%%%%%%%%%%%%

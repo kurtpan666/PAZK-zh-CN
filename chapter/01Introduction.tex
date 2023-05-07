@@ -9,11 +9,24 @@
 
 当VC协议具有一种称为\dotemph{零知识} 的性质时，它会在密码学环境中非常有用。零知识的意思是证明或论证除了其本身的有效性之外，不会泄露任何信息。
 
-为了具体说明为什么零知识协议有用，考虑以下来自身份认证的典型例子。假如Alice选择了一个随机口令$x$，公开了一个哈希值$z=h(x)$，其中$h$是一个单向函数。这意味着给定一个对随机选择$x$ 的 $z=h(x)$， 需要大量计算能力才能找到 $z$ 在 $h$ 下的原象， 即一个满足 $h\left(x^{\prime}\right)=z$ 的 $x^{\prime}$。 假如Alice 在之后想要说服 Bob 她是发布 $z$ 的同一个人。她可以通过向 Bob 证明她知道一个满足 $h\left(x^{\prime}\right)=z$ 的 $x^{\prime}$ ，来实现这一点。这将使 Bob 相信 Alice 是发布 $z$ 的同一个人, 因为这意味着 Alice 要么一开始就知道 $x$, 要么她反转了 $h$ （这被认为是超出了 Alice 的计算能力）。
+为了具体说明为什么零知识协议有用，考虑以下来自身份认证的典型例子。假如Alice选择了一个随机口令$x$，公开了一个哈希值$z=h(x)$。其中$h$是一个单向函数，给定一个对随机选择$x$ 的 $z=h(x)$， 需要大量计算能力才能找到 $z$ 在 $h$ 下的原像， 即一个满足 $h\left(x^{\prime}\right)=z$ 的 $x^{\prime}$。 
+假如Alice 在之后想要说服 Bob 她是发布 $z$ 的同一个人。她可以通过向 Bob 证明她知道一个满足 $h\left(x^{\prime}\right)=z$ 的 $x^{\prime}$ 来实现这一点。这将使 Bob 相信 Alice 是发布 $z$ 的同一个人, 因为这意味着 Alice 要么一开始就知道 $x$, 要么她反转了 $h$ （这被认为是超出了 Alice 的计算能力）。
 
+Alice 如何让 Bob 相信她知道 $h$ 下 $z$ 的原像？ 一个简单的证明是 Alice 将 $x$ 发送给 Bob，Bob 可以轻松检验 $h(x)=z$。 但这样所揭示的信息比 Alice 知道 $z$ 的原像要多得多。 具体来说它揭示了原像本身。 Bob 可以使用该知识永远冒充 Alice，因为现在他也知道 $z$ 的原像了。
 
+为了防止 Bob 获悉可能泄露口令 $x$ 的信息，给出不能揭示任何超出其自身有效性的内容的证明是很重要的。 这正是零知识性质所保证的。
+
+本书的一个特定目标是描述构造所谓的零知识简洁非交互式知识论证（简称 zk-SNARKs）的各种方法。 “简洁”意味着证明很短。 “非交互”意味着证明是静态的，由来自证明者的单个消息组成。 （第二个）“知识”大致意味着协议不仅确定一个陈述为真，而且证明者\dotemph{知晓}一个“证据”来证明该陈述为真。 \footnote{例如，上述身份验证场景中确实需要对“存在一个口令 $x$ 使得 $h(x)=z$”这一陈述进行零知识\dotemph{知识}证明。 这是因为应用要求 Bob 不仅要确信在 $h$ 下\dotemph{存在} $z$ 的原像 $x$（如果 $h$ 是满射函数，这将始终为真），而且还要确信Alice 知道 $x$。}满足所有这些性质的论证系统在整个密码学中有无数应用。
 
 对密码学相关的高度特定化的陈述（如证明离散对数的知识\cite{Sch89}）的实用零知识协议已经有了数十年了。然而，通用零知识协议直到最近才变得足够高效，可以用于密码部署中。通用的意思是，协议设计技术适用于任意计算。这一令人兴奋的进展包括了漂亮的新协议的提出，并引发了各界对零知识证明和论证的浓厚兴趣。本书旨在以统一的方式让人们能够轻松理解这些协议设计的主要思想和方法。
+
+\subsubsection{背景和上下文} 在20世纪80年代中期和90年代，理论计算机科学家
+\subsubsection{零知识协议设计方法以及本书的哲学}  
+\subsubsection{本书中信息论安全模型的顺序}
+\subsubsection{逐章大纲}
+\subsubsection{阅读本书的建议}
+
+
 
 \subsubsection{首次阅读可跳过的材料} Sections 4.2-4.5 are devoted to detailed example applications of the sum-check protocol and explaining how to efficiently implement the prover within it. While these sections contain interesting results and are useful for familiarizing oneself with the sum-check proto- col, subsequent chapters do not depend on them. Similarly, Chapter 5 on the Fiat-Shamir transformation and Chapter 6 on front-ends are optional on a first reading. Sections 9.3 and 9.4 provide PCPs that are mainly of historical interest and can be skipped.
 Chapters 11 and 13 offer treatments of zero-knowledge that largely stand on their own. Similarly, Chapter 18 discusses SNARK composition and stands on its own.

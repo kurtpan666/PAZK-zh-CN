@@ -1,11 +1,16 @@
 \contentsline {chapter}{\numberline {1}引言}{5}{chapter.1}%
 \hypertarget {chap-1}{}
+\contentsline {subsubsection}{背景和上下文}{6}{chapter.1}%
+\contentsline {subsubsection}{零知识协议设计方法以及本书的哲学}{6}{chapter.1}%
+\contentsline {subsubsection}{本书中信息论安全模型的顺序}{6}{chapter.1}%
+\contentsline {subsubsection}{逐章大纲}{6}{chapter.1}%
+\contentsline {subsubsection}{阅读本书的建议}{6}{chapter.1}%
 \contentsline {subsubsection}{首次阅读可跳过的材料}{6}{chapter.1}%
-\contentsline {section}{\numberline {1.1}数学证明}{6}{section.1.1}%
-\contentsline {section}{\numberline {1.2}我们将研究哪些非传统证明？}{7}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}交互式证明 （IP）}{7}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}论证系统}{8}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}多证明者交互式证明（MIP）/概率可检验证明（PCP）等}{8}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.1}数学证明}{7}{section.1.1}%
+\contentsline {section}{\numberline {1.2}我们将研究哪些非传统证明？}{8}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}交互式证明 （IP）}{8}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}论证系统}{9}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}多证明者交互式证明（MIP）/概率可检验证明（PCP）等}{9}{subsection.1.2.3}%
 \contentsline {chapter}{\numberline {2}随机性的力量：指纹和 Freivalds 算法}{11}{chapter.2}%
 \hypertarget {chap-2}{}
 \contentsline {chapter}{\numberline {3}定义和技术预备知识}{13}{chapter.3}%
