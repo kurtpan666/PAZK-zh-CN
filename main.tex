@@ -132,7 +132,13 @@ delim_0 "\\nobreak\\dotfill"
 
 
 %%%%%%%%%%%%%%%%%%% biblatex %%%%%%%%%%%%%%%%%
-\usepackage[doi=false,url=false,isbn=false,style=alphabetic,backend=biber,backref=true]{biblatex}
+\usepackage[doi=false,url=false,isbn=false,style=alphabetic,backend=biber,backref=true, minalphanames=3]{biblatex}
+
+\DefineBibliographyStrings{english}{
+  backrefpage={Cited on page},
+  backrefpages={Cited on pages}
+}
+
 \addbibresource{bib.bib}
 
 \newbibmacro{string+doiurlisbn}[1]{%

@@ -7,9 +7,12 @@ https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html
 
 
 ## 翻译日志
+- 230508 完成P7一段话。
+    - 调整参考文献引用显示格式为至少显示三个作者缩写以及引用为`cite on page`
 - 230507 「this survey」 统一翻译为「本书」，statement的翻译暂定「陈述」，考虑「语句」
     - 推进了第一章最开始
     - 解决了`\titleformat{\subsubsection}`，使得和原书一致。
+    - 开启了Discussion
 - 230506 `LXGW WenKai Mono` 字体似乎没有起作用？解决：需要在`\usepackage{ctex}`之后
     - 推进了一点点1.1
 - 230505 解决了中文着重号输入`\dotemph{}`。

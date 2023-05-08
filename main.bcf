@@ -112,7 +112,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minalphanames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minbibnames</bcf:key>
@@ -347,7 +347,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minalphanames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minbibnames</bcf:key>
@@ -2368,6 +2368,11 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">Sch89</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">LFKN92</bcf:citekey>
+    <bcf:citekey order="2" intorder="2">Sha92</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">BFL91</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">ALM+98</bcf:citekey>
+    <bcf:citekey order="4" intorder="2">AS98</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

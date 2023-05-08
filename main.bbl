@@ -19,6 +19,175 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
+    \entry{ALM+98}{article}{}
+      \name{author}{5}{}{%
+        {{hash=8e08b59145b9531815169c7ed0a0b055}{%
+           family={Arora},
+           familyi={A\bibinitperiod},
+           given={Sanjeev},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8de06808d97fa9673d700197a2bce191}{%
+           family={Lund},
+           familyi={L\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2f555526320a1c4028ad0f6328953999}{%
+           family={Motwani},
+           familyi={M\bibinitperiod},
+           given={Rajeev},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8753fbfaaa4aa8a1195c657edc9daef4}{%
+           family={Sudan},
+           familyi={S\bibinitperiod},
+           given={Madhu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=02787b7c625f75874530bb3bf8b10add}{%
+           family={Szegedy},
+           familyi={S\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{ab405688b3c276098991bcafe5da7076}
+      \strng{fullhash}{6bc1e98cb01145498a2f0dd2d6054b70}
+      \strng{bibnamehash}{ab405688b3c276098991bcafe5da7076}
+      \strng{authorbibnamehash}{ab405688b3c276098991bcafe5da7076}
+      \strng{authornamehash}{ab405688b3c276098991bcafe5da7076}
+      \strng{authorfullhash}{6bc1e98cb01145498a2f0dd2d6054b70}
+      \field{labelalpha}{ALM+98}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the ACM (JACM)}
+      \field{number}{3}
+      \field{title}{Proof verification and the hardness of approximation problems}
+      \field{volume}{45}
+      \field{year}{1998}
+      \field{pages}{501\bibrangedash 555}
+      \range{pages}{55}
+    \endentry
+    \entry{AS98}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8e08b59145b9531815169c7ed0a0b055}{%
+           family={Arora},
+           familyi={A\bibinitperiod},
+           given={Sanjeev},
+           giveni={S\bibinitperiod}}}%
+        {{hash=39a329e2b5e4ee534c5c5ef2f16d4b64}{%
+           family={Safra},
+           familyi={S\bibinitperiod},
+           given={Shmuel},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{075a9a815662b8cfc3908e240d581b6d}
+      \strng{fullhash}{075a9a815662b8cfc3908e240d581b6d}
+      \strng{bibnamehash}{075a9a815662b8cfc3908e240d581b6d}
+      \strng{authorbibnamehash}{075a9a815662b8cfc3908e240d581b6d}
+      \strng{authornamehash}{075a9a815662b8cfc3908e240d581b6d}
+      \strng{authorfullhash}{075a9a815662b8cfc3908e240d581b6d}
+      \field{labelalpha}{AS98}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the ACM (JACM)}
+      \field{number}{1}
+      \field{title}{Probabilistic checking of proofs: A new characterization of NP}
+      \field{volume}{45}
+      \field{year}{1998}
+      \field{pages}{70\bibrangedash 122}
+      \range{pages}{53}
+    \endentry
+    \entry{BFL91}{article}{}
+      \name{author}{3}{}{%
+        {{hash=cfe2ebe8e6de75b0a81d44ecef78d092}{%
+           family={Babai},
+           familyi={B\bibinitperiod},
+           given={László},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e43a5724fcae7ec1838dfc44579da075}{%
+           family={Fortnow},
+           familyi={F\bibinitperiod},
+           given={Lance},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8de06808d97fa9673d700197a2bce191}{%
+           family={Lund},
+           familyi={L\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{ac0ed9df53e487872ecf2d1443ca7459}
+      \strng{fullhash}{ac0ed9df53e487872ecf2d1443ca7459}
+      \strng{bibnamehash}{ac0ed9df53e487872ecf2d1443ca7459}
+      \strng{authorbibnamehash}{ac0ed9df53e487872ecf2d1443ca7459}
+      \strng{authornamehash}{ac0ed9df53e487872ecf2d1443ca7459}
+      \strng{authorfullhash}{ac0ed9df53e487872ecf2d1443ca7459}
+      \field{labelalpha}{BFL91}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computational complexity}
+      \field{title}{Non-deterministic exponential time has two-prover interactive protocols}
+      \field{volume}{1}
+      \field{year}{1991}
+      \field{pages}{3\bibrangedash 40}
+      \range{pages}{38}
+    \endentry
+    \entry{LFKN92}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8de06808d97fa9673d700197a2bce191}{%
+           family={Lund},
+           familyi={L\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e43a5724fcae7ec1838dfc44579da075}{%
+           family={Fortnow},
+           familyi={F\bibinitperiod},
+           given={Lance},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e92d16ea2d28730d01d4896892805c43}{%
+           family={Karloff},
+           familyi={K\bibinitperiod},
+           given={Howard},
+           giveni={H\bibinitperiod}}}%
+        {{hash=dd03ed102537d5040adaf7ede9bad0ec}{%
+           family={Nisan},
+           familyi={N\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{4c3599c10ab26b9c91eaf523464a0d40}
+      \strng{fullhash}{cbbc3ed1fe116d398f1df561f0625e05}
+      \strng{bibnamehash}{4c3599c10ab26b9c91eaf523464a0d40}
+      \strng{authorbibnamehash}{4c3599c10ab26b9c91eaf523464a0d40}
+      \strng{authornamehash}{4c3599c10ab26b9c91eaf523464a0d40}
+      \strng{authorfullhash}{cbbc3ed1fe116d398f1df561f0625e05}
+      \field{labelalpha}{LFK+92}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the ACM (JACM)}
+      \field{number}{4}
+      \field{title}{Algebraic methods for interactive proof systems}
+      \field{volume}{39}
+      \field{year}{1992}
+      \field{pages}{859\bibrangedash 868}
+      \range{pages}{10}
+    \endentry
     \entry{Sch89}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=0cd5bbd149e4d6d600854c7f315a0dc9}{%
@@ -41,6 +210,36 @@
       \field{booktitle}{Annual International Cryptology Conference}
       \field{title}{Efficient Identification and Signatures for Smart Cards}
       \field{year}{1989}
+    \endentry
+    \entry{Sha92}{article}{}
+      \name{author}{1}{}{%
+        {{hash=71b77dd8ab33fe646ef25cded49e9881}{%
+           family={Shamir},
+           familyi={S\bibinitperiod},
+           given={Adi},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{71b77dd8ab33fe646ef25cded49e9881}
+      \strng{fullhash}{71b77dd8ab33fe646ef25cded49e9881}
+      \strng{bibnamehash}{71b77dd8ab33fe646ef25cded49e9881}
+      \strng{authorbibnamehash}{71b77dd8ab33fe646ef25cded49e9881}
+      \strng{authornamehash}{71b77dd8ab33fe646ef25cded49e9881}
+      \strng{authorfullhash}{71b77dd8ab33fe646ef25cded49e9881}
+      \field{labelalpha}{Sha92}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the ACM (JACM)}
+      \field{number}{4}
+      \field{title}{IP = PSPACE}
+      \field{volume}{39}
+      \field{year}{1992}
+      \field{pages}{869\bibrangedash 877}
+      \range{pages}{9}
     \endentry
   \enddatalist
 \endrefsection
