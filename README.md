@@ -7,6 +7,8 @@ https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html
 
 
 ## 翻译日志
+- 230510 完成P8 2段话
+    - 目录改为单栏模式
 - 230508 完成P7一段话。
     - 调整参考文献引用显示格式为至少显示三个作者缩写以及引用为`cite on page`
 - 230507 「this survey」 统一翻译为「本书」，statement的翻译暂定「陈述」，考虑「语句」
