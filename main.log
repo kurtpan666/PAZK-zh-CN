@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.31)  10 MAY 2023 13:42
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.31)  11 MAY 2023 20:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1687,20 +1687,17 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
 (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FBD23434616DE5BF419549BF195C6531;3442.
+(rerunfilecheck)             Checksum: 15F34946820DF808F6914CBE9D25047F;3601.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40299 strings out of 476683
- 815660 string characters out of 5804047
+ 40323 strings out of 476683
+ 817124 string characters out of 5804047
  1878018 words of memory out of 5000000
- 59598 multiletter control sequences out of 15000+600000
+ 59622 multiletter control sequences out of 15000+600000
  537549 words of font info for 169 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  96i,14n,100p,2292b,4772s stack positions out of 10000i,1000n,20000p,200000b,200000s

@@ -15,6 +15,7 @@
 \hypertarget {chap-2}{}
 \contentsline {chapter}{\numberline {3}定义和技术预备知识}{13}{chapter.3}%
 \hypertarget {chap-3}{}
+\contentsline {section}{\numberline {3.1}定义的健壮性及交互式的威力}{13}{section.3.1}%
 \contentsline {chapter}{\numberline {4}交互式证明系统}{15}{chapter.4}%
 \hypertarget {chap-4}{}
 \contentsline {chapter}{\numberline {5}使用Fiat-Shamir得到公开可验证非交互式论证}{17}{chapter.5}%

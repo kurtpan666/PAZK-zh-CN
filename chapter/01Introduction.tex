@@ -46,27 +46,19 @@ Chapters 11 and 13 offer treatments of zero-knowledge that largely stand on thei
 
 
 \section{数学证明}
-本书涵盖了\dotemph{数学证明}的不同概念及其在计算机科学和密码学中的应用。非正式地，我们所说的证明是指任何能使某人相信某项陈述为真的东西，而“证明系统”是任何决定什么是令人信服的证明以及什么不是的程序。也就是说，证明系统由验证程序决定，该验证程序将任何陈述和声称该陈述为真的“证明”作为输入，并判定证明是否有效。
+本书涵盖了\dotemph{数学证明}的不同概念及其在计算机科学和密码学中的应用。非正式地，我们所说的证明是指任何能使某人相信某项陈述为真的东西，而“证明系统”是指任何判定什么是令人信服的证明的程序。也就是说，证明系统由验证程序决定，该验证程序将任何陈述和声称该陈述为真的“证明”作为输入，判定该证明是否有效。
 
 我们希望证明系统具有哪些性质呢？这有四个比较明显要有的。
 \begin{itemize}
-    \item 任何真陈述都应该有其有效性的令人信服的证明。此性质通常称为\dotemph{完整性}。
+    \item 任何真陈述都应该有对其有效性的令人信服的证明。此性质通常称为\dotemph{完备性}。
     \item 任何假陈述都不应有令人信服的证明。此性质称为\dotemph{可靠性}。
-    \item 理想情况下，验证程序将是“高效的”。 粗略地说，这意味着简单的陈述应该有简短的（令人信服的）证明，且可以快速\dotemph{检验}。
-    \item 理想情况下，证明生成也应该是高效的。 粗略地说，这意味着简单的陈述应该有可以快速\dotemph{找到}的简短（令人信服的）证明。
+    \item 理想情况下，验证程序将是“高效的”。 粗略地说，这意味着对简单的陈述应该有简短的（令人信服的）证明，且可以快速\dotemph{检验}。
+    \item 理想情况下，证明生成也应该是高效的。 粗略地说，这意味着对简单的陈述应该有可以快速\dotemph{找到}的（令人信服的）短证明。
 \end{itemize}
 
 
-传统上，数学证明是可以逐行编写并检查其正确性的东西。 这种传统的证明概念正是复杂性类 $\mathbf{N P}^8$ 所捕获的概念。但是，$^8$，在过去的 $30+$ 年里，计算机科学家研究了更普遍和奇异的证明概念 . 这改变了计算机科学家对证明某事意味着什么的观念，并导致了复杂性理论和密码学的重大进步。
+传统上，数学证明是可以逐行撰写并逐行检验其正确性的东西。 这种传统的证明概念正是复杂性类 $\mathbf{N P}$ \footnote{粗略地说，复杂性类 $\mathbf{N P}$ 包含所有这样的问题：任意输入上的正确答案为“是”或“否”，且对于所有“是”实例，存在一个有效可检验的（传统）证明，该证明的正确答案为“是”。 详细信息可参阅第 \ref{3.3} 节。} 所刻画的概念。但是在过去的30多年里，计算机科学家研究了更通用和更奇异的证明概念。这改变了计算机科学家对证明某事意味着什么的观念，并导致了复杂性理论和密码学的重大进步。
 
-This survey covers different notions of mathematical proofs and their applications in computer science and cryptography. Informally, what we mean by a proof is anything that convinces someone that a statement is true, and a "proof system" is any procedure that decides what is and is not a convincing proof. That is, a proof system is specified by a verification procedure that takes as input any statement and a claimed "proof" that the statement is true, and decides whether or not the proof is valid.
-What properties do we want in a proof system? Here are four obvious ones.
-- Any true statement should have a convincing proof of its validity. This property is typically referred to as completeness.
-- No false statement should have a convincing proof. This property is referred to as soundness.
-- Ideally, the verification procedure will be "efficient". Roughly, this means that simple statements should have short (convincing) proofs that can be checked quickly.
-- Ideally, proving should be efficient too. Roughly, this means that simple statements should have short (convincing) proofs that can be found quickly.
-
-Traditionally, a mathematical proof is something that can be written and checked line-by-line for correctness. This traditional notion of proof is precisely the one captured by the complexity class $\mathbf{N P}^8$ However, $^8$, over the last $30+$ years, computer scientists have studied much more general and exotic notions of proofs. This has transformed computer scientists' notions of what it means to prove something, and has led to major advances in complexity theory and cryptography.
 
 \section{我们将研究哪些非传统证明？}
 本书中研究的所有证明概念本质上都是概率性的。
