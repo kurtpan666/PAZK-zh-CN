@@ -7,9 +7,11 @@ https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html
 
 
 ## 翻译日志
+- 0512 完成 1.2.1 交互式证明（IP）。
+    - 出现图翻译问题见issue
 - 0511 项目启动一周。
     - 完成1.1
-- 230510 完成P8 2段话
+- 0510 完成P8 2段话
     - 目录改为单栏模式
 - 0508 完成P7一段话。
     - 调整参考文献引用显示格式为至少显示三个作者缩写以及引用为`cite on page`

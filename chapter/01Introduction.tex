@@ -66,10 +66,16 @@ Chapters 11 and 13 offer treatments of zero-knowledge that largely stand on thei
 也就是说，验证程序会以（非常）小的概率宣布假陈述为真。
 
 \subsection{交互式证明 （IP）}
-To understand what an interactive proof is, it is helpful to think of the following application. Imagine a business (verifier) that is using a commercial cloud computing provider to store and process its data. The business sends all of its data up to the cloud (prover), which stores it, while the business stores only a very small “secret” summary of the data (meaning that the cloud does not know the user’s secret summary). Later, the business asks the cloud a question about its data, typically in the form of a computer program f that the business wants the cloud to run on its data using the cloud’s vast computing infrastructure. The cloud does so, and sends the user the claimed output of the program, f (data). Rather than blindly trust that the cloud executed the program on the data correctly, the business can use an interactive proof system (IP) to obtain a formal guarantee that the claimed output is correct.
-In the IP, the business interrogates the cloud, sending a sequence of challenges and receiving a sequence of responses. At the end of the interrogation, the business must decide whether to accept the answer as valid or reject it as invalid. See Figure 1.1 for a diagram of this interaction.
-Completeness of the IP means that if the cloud correctly runs the program on the data and follows the prescribed protocol, then the user will be convinced to accept the answer as valid. Soundness of the IP means that if the cloud returns the wrong output, then the user will reject the answer as invalid with high probability no matter how hard the cloud works to trick the user into accepting the answer as valid. Intuitively, the interactive nature of the IP lets the business exploit the element of surprise (i.e., the fact that the cloud cannot predict the business’s next challenge) to catch a lying cloud in a lie.
-It is worth remarking on an interesting difference between IPs and traditional static proofs. Static proofs are transferrable, meaning that if Peggy (prover) hands Victor (verifier) a proof that a statement is true, Victor can turn around and convince Tammy (a third party) that the same statement is true, simply by copying the proof. In contrast, an interactive proof may not be transferrable. Victor can try to convince Tammy that the statement is true by sending Tammy a transcript of his interaction with Peggy, but Tammy will not be convinced unless Tammy trusts that Victor correctly represented the interaction. This is because soundness of the IP only holds if, every time Peggy sends a response to Victor, Peggy does not know what challenge Victor will respond with next. The transcript alone does not give Tammy a guarantee that this holds.
+要理解什么是交互式证明，考虑以下应用场景可能会有帮助。 想象一家企业（验证者）使用某云计算提供商来存储和处理其数据。 
+企业将其所有数据发送并存储到云（证明者），企业仅存储非常小的数据的“秘密”摘要（云不知道用户的秘密摘要）。 
+随后，企业向云询问有关其数据的问题，通常以计算机程序$f$的形式提出，即企业希望云使用庞大的计算基础设施在其数据上运行该程序。 
+云这样做了之后向用户发送程序的输出 $f(\text{数据})$。 企业可以使用交互式证明系统 (IP) 来获得该输出正确性的一个正式\dotemph{保证}，而不是盲目地去相信云在数据上正确执行了该程序。
+
+在 IP 中，企业询问云，发送一系列挑战并接收一系列响应。 在询问结束时，企业必须决定是接受有效答案还是拒绝无效答案。 有关此交互的图，请参见图 1.1。
+
+IP 的完备性保证了如果云在数据上正确运行了程序并遵循所规定的协议，那么用户将被说服接受有效的回答。 IP 的可靠性保证了如果云返回错误的输出，那么\dotemph{无论云如何努力诱使用户}接受回答为有效，用户都将以很高概率拒绝回答为无效。 直观上，IP 的交互本质使得企业可以利用意外元素（即云无法预测企业的下一个挑战这一事实）来捕捉到云的谎言。
+
+值得一提的是 IP 和传统静态证明之间的一个有趣区别。静态证明是\dotemph{可传递}的，如果 Peggy（证明者）向 Victor（验证者）提供一个陈述为真证明，Victor 可以继续去说服 Tammy（第三方）相同的陈述为真，只需复制证明即可。 反之，一个交互式证明是不可传递的。 Victor 可以通过向 Tammy 发送他与 Peggy 的交互脚本来尝试说服 Tammy 该陈述为真，但 Tammy 并不会被说服，除非 Tammy 相信 Victor 正确地代表了交互过程。 这是因为 IP 的可靠性仅在每次 Peggy 向 Victor 发送响应时，Peggy 不知道 Victor 接下来将响应什么挑战时才成立。 仅凭脚本并不能向Tammy保证这一点。
 
 \subsection{论证系统}
 论证系统就是IP，只是其中的可靠性性要求只需要防止在多项式时间内运行的作弊证明者。\footnote{这大致意味着如果输入的大小为 $n$，那么证明者的运行时间（对于足够大的 $n$ 值）应该以 $n$ 的某个常数幂为界，例如 $n^{10} $。}
