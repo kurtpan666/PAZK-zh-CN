@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.31)  12 MAY 2023 12:15
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.31)  13 MAY 2023 08:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1574,7 +1574,7 @@ Chapter 1.
 ] [6] [7]
 Underfull \vbox (badness 6141) has occurred while \output is active []
 
- [8] [9]) (./chapter/02Randomness.tex [10]
+ [8]) (./chapter/02Randomness.tex [9] [10]
 Chapter 2.
 ) (./chapter/03Definition.tex [11
 
@@ -1691,16 +1691,16 @@ This document will not have a glossary.
 
 (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 15F34946820DF808F6914CBE9D25047F;3601.
+(rerunfilecheck)             Checksum: C9066FBCA7777F124F11A16A47D746C0;3927.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40317 strings out of 476683
- 816466 string characters out of 5804047
+ 40323 strings out of 476683
+ 816521 string characters out of 5804047
  1878018 words of memory out of 5000000
- 59614 multiletter control sequences out of 15000+600000
+ 59620 multiletter control sequences out of 15000+600000
  537565 words of font info for 171 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  96i,14n,100p,2292b,4772s stack positions out of 10000i,1000n,20000p,200000b,200000s

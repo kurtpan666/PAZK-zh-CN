@@ -7,7 +7,8 @@ https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html
 
 
 ## 翻译日志
-- 0512 完成 1.2.1 交互式证明（IP）。
+- 0513 完成 1.2.3
+- 0512 完成 1.2.1 
     - 出现图翻译问题见issue
 - 0511 项目启动一周。
     - 完成1.1

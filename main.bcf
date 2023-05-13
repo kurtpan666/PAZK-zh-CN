@@ -2373,6 +2373,8 @@
     <bcf:citekey order="3" intorder="1">BFL91</bcf:citekey>
     <bcf:citekey order="4" intorder="1">ALM+98</bcf:citekey>
     <bcf:citekey order="4" intorder="2">AS98</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">ALM+98</bcf:citekey>
+    <bcf:citekey order="5" intorder="2">AS98</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

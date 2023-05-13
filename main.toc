@@ -28,8 +28,10 @@
 \hypertarget {chap-8}{}
 \contentsline {chapter}{\numberline {9}PCP和简洁论证系统}{25}{chapter.9}%
 \hypertarget {chap-9}{}
+\contentsline {section}{\numberline {9.1}将PCP编译为简洁论证系统}{25}{section.9.1}%
 \contentsline {chapter}{\numberline {10}交互式预言证明}{27}{chapter.10}%
 \hypertarget {chap-10}{}
+\contentsline {section}{\numberline {10.1}多项式IOP和相应的简洁论证系统}{27}{section.10.1}%
 \contentsline {chapter}{\numberline {11}零知识证明和论证系统}{29}{chapter.11}%
 \hypertarget {chap-11}{}
 \contentsline {chapter}{\numberline {12}基于离散对数困难性的 $\Sigma $-协议和承诺}{31}{chapter.12}%
