@@ -1,6 +1,7 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}和校验协议}{\reset@font\mtcSfont 17}{section.4.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}和校验的首个应用：$^\# \mathrm {SAT} \in \mathbf {I P}$}{\reset@font\mtcSfont 17}{section.4.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}第二个应用：一个清点图中三角形数量的简单IP}{\reset@font\mtcSfont 17}{section.4.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}第三个应用：对矩阵乘法的非常高效的IP}{\reset@font\mtcSfont 17}{section.4.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.5}对矩阵乘法的非常高效的IP的应用}{\reset@font\mtcSfont 17}{section.4.5}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.6}GKR协议及其高效实现}{\reset@font\mtcSfont 17}{section.4.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}和校验协议}{\reset@font\mtcSfont 19}{section.4.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}和校验的首个应用：$^\# \mathrm {SAT} \in \mathbf {I P}$}{\reset@font\mtcSfont 19}{section.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}第二个应用：一个清点图中三角形数量的简单IP}{\reset@font\mtcSfont 19}{section.4.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}第三个应用：对矩阵乘法的非常高效的IP}{\reset@font\mtcSfont 19}{section.4.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.5}对矩阵乘法的非常高效的IP的应用}{\reset@font\mtcSfont 19}{section.4.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.6}GKR协议及其高效实现}{\reset@font\mtcSfont 19}{section.4.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.7}习题}{\reset@font\mtcSfont 19}{section.4.7}}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.31)  15 MAY 2023 16:38
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.31)  15 MAY 2023 23:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1563,15 +1563,15 @@ Package minitoc Info: I0033
 
  [2
 
-] (./main.toc [3])
+] (./main.toc [3] [4] [5])
 \tf@toc=\write10
 \openout10 = `main.toc'.
 
- (./chapter/01Introduction.tex [4]
+ (./chapter/01Introduction.tex [6]
 Chapter 1.
-[5
+[7
 
-] [6] [7]
+] [8] [9]
 
 Package fontspec Warning: Font "STFangsong" does not contain requested Script
 (fontspec)                "CJK".
@@ -1599,15 +1599,15 @@ Package fontspec Info: Font family 'STFangsong(0)' created for font
 (fontspec)             <->"STFangsong/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-[8] [9] [10]) (./chapter/02Randomness.tex [11] [12
+[10] [11] [12]) (./chapter/02Randomness.tex [13] [14
 
 ]
 Chapter 2.
-) (./chapter/03Definition.tex [13] [14
+) (./chapter/03Definition.tex [15] [16
 
 ]
 Chapter 3.
-) (./chapter/04IP.tex [15] [16
+) (./chapter/04IP.tex [17] [18
 
 ]
 Chapter 4.
@@ -1627,35 +1627,35 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
 
-) (./chapter/05FS.tex [17] [18
+) (./chapter/05FS.tex [19] [20
 
 ]
 Chapter 5.
-) (./chapter/06FrontEnds.tex [19] [20
+) (./chapter/06FrontEnds.tex [21] [22
 
 ]
 Chapter 6.
-) (./chapter/07argfromip.tex [21] [22
+) (./chapter/07argfromip.tex [23] [24
 
 ]
 Chapter 7.
-) (./chapter/08MIP.tex [23] [24
+) (./chapter/08MIP.tex [25] [26
 
 ]
 Chapter 8.
-) (./chapter/09PCP.tex [25] [26
+) (./chapter/09PCP.tex [27] [28
 
 ]
 Chapter 9.
-) (./chapter/10IOP.tex [27] [28
+) (./chapter/10IOP.tex [29] [30
 
 ]
 Chapter 10.
-) (./chapter/11ZKP.tex [29] [30
+) (./chapter/11ZKP.tex [31] [32
 
 ]
 Chapter 11.
-) (./chapter/12sigma.tex [31] [32
+) (./chapter/12sigma.tex [33] [34
 
 ]
 Chapter 12.
@@ -1671,39 +1671,71 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-) (./chapter/13CP.tex [33] [34
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Sigma' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 4.
+
+) (./chapter/13CP.tex [35] [36
 
 ]
 Chapter 13.
-) (./chapter/14PCDL.tex [35] [36
+) (./chapter/14PCDL.tex [37] [38
 
 ]
 Chapter 14.
-) (./chapter/15PCPairing.tex [37] [38
+) (./chapter/15PCPairing.tex [39] [40
 
 ]
 Chapter 15.
-) (./chapter/16PC.tex [39] [40
+) (./chapter/16PC.tex [41] [42
 
 ]
 Chapter 16.
-) (./chapter/17LPCP.tex [41] [42
+) (./chapter/17LPCP.tex [43] [44
 
 ]
 Chapter 17.
-) (./chapter/18Recursion.tex [43] [44
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\left' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\right' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 6.
+
+) (./chapter/18Recursion.tex [45] [46
 
 ]
 Chapter 18.
-) (./chapter/19SNARK.tex [45] [46
+) (./chapter/19SNARK.tex [47] [48
 
 ]
 Chapter 19.
-) [47] [48
+) [49] [50
 
-] [49
+] [51
 
-] [50
+] [52
 
 ]
 runsystem(makeindex -s index.ist main.idx)...executed safely (allowed).
@@ -1735,7 +1767,7 @@ This document will not have a glossary.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A7738D20D50C267EFA4C04141986DF21;6295.
+(rerunfilecheck)             Checksum: 8900AECAE0A0074810BE191B6485FDEC;15813.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1746,12 +1778,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40445 strings out of 476683
- 819636 string characters out of 5804047
+ 40655 strings out of 476683
+ 825766 string characters out of 5804047
  1880018 words of memory out of 5000000
- 59722 multiletter control sequences out of 15000+600000
+ 59932 multiletter control sequences out of 15000+600000
  543509 words of font info for 205 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 96i,14n,100p,2292b,4772s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 96i,14n,100p,2292b,4768s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (50 pages).
+Output written on main.pdf (52 pages).

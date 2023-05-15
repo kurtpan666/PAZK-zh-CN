@@ -1,1 +1,4 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {15.1}密码学背景}{\reset@font\mtcSfont 39}{section.15.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {15.1}密码学背景}{\reset@font\mtcSfont 41}{section.15.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {15.2}KZG：需要配对和可信设置的单变量多项式承诺}{\reset@font\mtcSfont 41}{section.15.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {15.3}扩展KZG到多线性多项式}{\reset@font\mtcSfont 41}{section.15.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {15.4}Dory：对数验证开销的透明方案}{\reset@font\mtcSfont 41}{section.15.4}}

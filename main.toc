@@ -1,68 +1,133 @@
-\contentsline {chapter}{\numberline {1}引言}{5}{chapter.1}%
+\contentsline {chapter}{\numberline {1}引言}{7}{chapter.1}%
 \hypertarget {chap-1}{}
-\contentsline {subsubsection}{背景和上下文}{6}{chapter.1}%
-\contentsline {subsubsection}{零知识协议设计方法及本书的理念}{6}{chapter.1}%
-\contentsline {subsubsection}{本书中信息论安全模型的顺序}{7}{chapter.1}%
-\contentsline {subsubsection}{逐章大纲}{7}{chapter.1}%
-\contentsline {subsubsection}{阅读本书的建议}{8}{chapter.1}%
-\contentsline {subsubsection}{首次阅读可跳过的材料}{8}{chapter.1}%
-\contentsline {section}{\numberline {1.1}数学证明}{9}{section.1.1}%
-\contentsline {section}{\numberline {1.2}我们将研究哪些非传统证明？}{9}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}交互式证明 （IP）}{9}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}论证系统}{10}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}多证明者交互式证明（MIP）/概率可检验证明（PCP）等}{10}{subsection.1.2.3}%
-\contentsline {chapter}{\numberline {2}随机性的力量：指纹和 Freivalds 算法}{13}{chapter.2}%
+\contentsline {subsubsection}{背景和上下文}{8}{chapter.1}%
+\contentsline {subsubsection}{零知识协议设计方法及本书的理念}{8}{chapter.1}%
+\contentsline {subsubsection}{本书中信息论安全模型的顺序}{9}{chapter.1}%
+\contentsline {subsubsection}{逐章大纲}{9}{chapter.1}%
+\contentsline {subsubsection}{阅读本书的建议}{10}{chapter.1}%
+\contentsline {subsubsection}{首次阅读可跳过的材料}{10}{chapter.1}%
+\contentsline {section}{\numberline {1.1}数学证明}{11}{section.1.1}%
+\contentsline {section}{\numberline {1.2}我们将研究哪些非传统证明？}{11}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}交互式证明 （IP）}{11}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}论证系统}{12}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}多证明者交互式证明（MIP）/概率可检验证明（PCP）等}{12}{subsection.1.2.3}%
+\contentsline {chapter}{\numberline {2}随机性的力量：指纹识别和 Freivalds 算法}{15}{chapter.2}%
 \hypertarget {chap-2}{}
-\contentsline {chapter}{\numberline {3}定义和技术预备知识}{15}{chapter.3}%
+\contentsline {section}{\numberline {2.1}Reed-Solomon指纹识别}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Freivalds算法}{15}{section.2.2}%
+\contentsline {section}{\numberline {2.3}看待指纹识别和Freivalds算法的另一种视角}{15}{section.2.3}%
+\contentsline {section}{\numberline {2.4}单变量Lagrange插值法}{15}{section.2.4}%
+\contentsline {chapter}{\numberline {3}定义和技术预备知识}{17}{chapter.3}%
 \hypertarget {chap-3}{}
-\contentsline {section}{\numberline {3.1}定义的健壮性及交互式的威力}{15}{section.3.1}%
-\contentsline {chapter}{\numberline {4}交互式证明系统}{17}{chapter.4}%
+\contentsline {section}{\numberline {3.1}交互式证明}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}论证系统}{17}{section.3.2}%
+\contentsline {section}{\numberline {3.3}定义的健壮性及交互式的威力}{17}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Schwartz-Zippel引理}{17}{section.3.4}%
+\contentsline {section}{\numberline {3.5}低次和多线性扩展}{17}{section.3.5}%
+\contentsline {section}{\numberline {3.6}习题}{17}{section.3.6}%
+\contentsline {chapter}{\numberline {4}交互式证明系统}{19}{chapter.4}%
 \hypertarget {chap-4}{}
-\contentsline {section}{\numberline {4.1}和校验协议}{17}{section.4.1}%
-\contentsline {section}{\numberline {4.2}和校验的首个应用：$^\# \mathrm {SAT} \in \mathbf {I P}$}{17}{section.4.2}%
-\contentsline {section}{\numberline {4.3}第二个应用：一个清点图中三角形数量的简单IP}{17}{section.4.3}%
-\contentsline {section}{\numberline {4.4}第三个应用：对矩阵乘法的非常高效的IP}{17}{section.4.4}%
-\contentsline {section}{\numberline {4.5}对矩阵乘法的非常高效的IP的应用}{17}{section.4.5}%
-\contentsline {section}{\numberline {4.6}GKR协议及其高效实现}{17}{section.4.6}%
-\contentsline {chapter}{\numberline {5}使用Fiat-Shamir得到公开可验证非交互式论证}{19}{chapter.5}%
+\contentsline {section}{\numberline {4.1}和校验协议}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}和校验的首个应用：$^\# \mathrm {SAT} \in \mathbf {I P}$}{19}{section.4.2}%
+\contentsline {section}{\numberline {4.3}第二个应用：一个清点图中三角形数量的简单IP}{19}{section.4.3}%
+\contentsline {section}{\numberline {4.4}第三个应用：对矩阵乘法的非常高效的IP}{19}{section.4.4}%
+\contentsline {section}{\numberline {4.5}对矩阵乘法的非常高效的IP的应用}{19}{section.4.5}%
+\contentsline {section}{\numberline {4.6}GKR协议及其高效实现}{19}{section.4.6}%
+\contentsline {section}{\numberline {4.7}习题}{19}{section.4.7}%
+\contentsline {chapter}{\numberline {5}使用Fiat-Shamir得到公开可验证非交互式论证}{21}{chapter.5}%
 \hypertarget {chap-5}{}
-\contentsline {section}{\numberline {5.1}Fiat-Shamir 转换}{19}{section.5.1}%
-\contentsline {chapter}{\numberline {6}前端：将计算机程序转化为电路}{21}{chapter.6}%
+\contentsline {section}{\numberline {5.1}随机预言模型}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Fiat-Shamir 转换}{21}{section.5.2}%
+\contentsline {section}{\numberline {5.3}转换的安全性}{21}{section.5.3}%
+\contentsline {section}{\numberline {5.4}习题}{21}{section.5.4}%
+\contentsline {chapter}{\numberline {6}前端：将计算机程序转化为电路}{23}{chapter.6}%
 \hypertarget {chap-6}{}
-\contentsline {chapter}{\numberline {7}基于交互式证明的首个电路可满足性简洁论证}{23}{chapter.7}%
+\contentsline {section}{\numberline {6.1}引言}{23}{section.6.1}%
+\contentsline {section}{\numberline {6.2}机器代码}{23}{section.6.2}%
+\contentsline {section}{\numberline {6.3}将程序转换为电路的第一个技术（概览）}{23}{section.6.3}%
+\contentsline {section}{\numberline {6.4}将小空间程序转换为浅电路}{23}{section.6.4}%
+\contentsline {section}{\numberline {6.5}将计算机程序转换为电路可满足性实例}{23}{section.6.5}%
+\contentsline {section}{\numberline {6.6}另外的转换和优化}{23}{section.6.6}%
+\contentsline {section}{\numberline {6.7}习题}{23}{section.6.7}%
+\contentsline {chapter}{\numberline {7}基于交互式证明的首个电路可满足性简洁论证}{25}{chapter.7}%
 \hypertarget {chap-7}{}
-\contentsline {chapter}{\numberline {8}MIP和简洁论证系统}{25}{chapter.8}%
+\contentsline {section}{\numberline {7.1}朴素方法：一个对电路可满足性的IP}{25}{section.7.1}%
+\contentsline {section}{\numberline {7.2}对电路可满足性的简洁论证}{25}{section.7.2}%
+\contentsline {section}{\numberline {7.3}第一个对电路可满足性的简洁论证}{25}{section.7.3}%
+\contentsline {section}{\numberline {7.4}知识可靠性}{25}{section.7.4}%
+\contentsline {chapter}{\numberline {8}MIP：定义和基本结果}{27}{chapter.8}%
 \hypertarget {chap-8}{}
-\contentsline {section}{\numberline {8.1}一个对电路可满足性的高效MIP}{25}{section.8.1}%
-\contentsline {section}{\numberline {8.2}MIP = NEXP}{25}{section.8.2}%
-\contentsline {chapter}{\numberline {9}PCP和简洁论证系统}{27}{chapter.9}%
+\contentsline {section}{\numberline {8.1}一个对电路可满足性的高效MIP}{27}{section.8.1}%
+\contentsline {section}{\numberline {8.2}一个对电路可满足性的高效MIP}{27}{section.8.2}%
+\contentsline {section}{\numberline {8.3}一个对深电路的简洁论证}{27}{section.8.3}%
+\contentsline {section}{\numberline {8.4}从Circuit-SAT到R1CS-SAT的扩展}{27}{section.8.4}%
+\contentsline {section}{\numberline {8.5}MIP = NEXP}{27}{section.8.5}%
+\contentsline {chapter}{\numberline {9}PCP和简洁论证系统}{29}{chapter.9}%
 \hypertarget {chap-9}{}
-\contentsline {section}{\numberline {9.1}PCP：定义及和MIP的关系}{27}{section.9.1}%
-\contentsline {section}{\numberline {9.2}将PCP编译为简洁论证系统}{27}{section.9.2}%
-\contentsline {section}{\numberline {9.3}基于MIP的首个多项式长度的PCP}{27}{section.9.3}%
-\contentsline {section}{\numberline {9.4}对算术电路可满足性的准线性长度PCP}{27}{section.9.4}%
-\contentsline {chapter}{\numberline {10}交互式预言证明}{29}{chapter.10}%
+\contentsline {section}{\numberline {9.1}PCP：定义及和MIP的关系}{29}{section.9.1}%
+\contentsline {section}{\numberline {9.2}将PCP编译为简洁论证系统}{29}{section.9.2}%
+\contentsline {section}{\numberline {9.3}基于MIP的首个多项式长度的PCP}{29}{section.9.3}%
+\contentsline {section}{\numberline {9.4}对算术电路可满足性的准线性长度PCP}{29}{section.9.4}%
+\contentsline {chapter}{\numberline {10}交互式预言证明}{31}{chapter.10}%
 \hypertarget {chap-10}{}
-\contentsline {section}{\numberline {10.1}多项式IOP和相应的简洁论证系统}{29}{section.10.1}%
-\contentsline {section}{\numberline {10.2}FRI以及相关的多项式承诺}{29}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Ligero和Brakedown多项式承诺}{29}{section.10.3}%
-\contentsline {chapter}{\numberline {11}零知识证明和论证系统}{31}{chapter.11}%
+\contentsline {section}{\numberline {10.1}IOP：定义和相应的简洁论证系统}{31}{section.10.1}%
+\contentsline {section}{\numberline {10.2}多项式IOP和相应的简洁论证系统}{31}{section.10.2}%
+\contentsline {section}{\numberline {10.3}一个对R1CS可满足性的多项式IOP}{31}{section.10.3}%
+\contentsline {section}{\numberline {10.4}FRI以及相关的多项式承诺}{31}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Ligero和Brakedown多项式承诺}{31}{section.10.5}%
+\contentsline {section}{\numberline {10.6}使用多项式IOP统一IP，MIP和IOP}{31}{section.10.6}%
+\contentsline {chapter}{\numberline {11}零知识证明和论证系统}{33}{chapter.11}%
 \hypertarget {chap-11}{}
-\contentsline {chapter}{\numberline {12}基于离散对数困难性的 $\Sigma $-协议和承诺}{33}{chapter.12}%
+\contentsline {section}{\numberline {11.1}什么是零知识证明？}{33}{section.11.1}%
+\contentsline {section}{\numberline {11.2}统计零知识证明的局限}{33}{section.11.2}%
+\contentsline {section}{\numberline {11.3}对图的非同构的诚实验证者统计零知识证明协议}{33}{section.11.3}%
+\contentsline {section}{\numberline {11.4}对碰撞问题的诚实验证者统计零知识证明协议}{33}{section.11.4}%
+\contentsline {chapter}{\numberline {12}基于离散对数困难性的 $\Sigma $-协议和承诺}{35}{chapter.12}%
 \hypertarget {chap-12}{}
-\contentsline {chapter}{\numberline {13}通过承诺并证明和遮盖多项式实现零知识}{35}{chapter.13}%
+\contentsline {section}{\numberline {12.1}密码学背景}{35}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Schnorr的对离散对数知识的$\Sigma $协议}{35}{section.12.2}%
+\contentsline {section}{\numberline {12.3}一个同态承诺方案}{35}{section.12.3}%
+\contentsline {chapter}{\numberline {13}通过承诺并证明和遮盖多项式实现零知识}{37}{chapter.13}%
 \hypertarget {chap-13}{}
-\contentsline {chapter}{\numberline {14}基于离散对数困难性的多项式承诺}{37}{chapter.14}%
+\contentsline {section}{\numberline {13.1}见证大小的证明长度以及乘法复杂度}{37}{section.13.1}%
+\contentsline {section}{\numberline {13.2}避免对乘法复杂度的线性依赖：来自 IP 的零知识论证}{37}{section.13.2}%
+\contentsline {section}{\numberline {13.3}通过遮盖多项式的零知识}{37}{section.13.3}%
+\contentsline {section}{\numberline {13.4}讨论和比较}{37}{section.13.4}%
+\contentsline {chapter}{\numberline {14}基于离散对数困难性的多项式承诺}{39}{chapter.14}%
 \hypertarget {chap-14}{}
-\contentsline {chapter}{\numberline {15}基于配对的多项式承诺}{39}{chapter.15}%
+\contentsline {section}{\numberline {14.1}一个带有线性大小承诺的零知识方案}{39}{section.14.1}%
+\contentsline {section}{\numberline {14.2}常数大小承诺但线性大小求值证明}{39}{section.14.2}%
+\contentsline {section}{\numberline {14.3}权衡承诺大小和证明开销}{39}{section.14.3}%
+\contentsline {section}{\numberline {14.4}Bulletproofs}{39}{section.14.4}%
+\contentsline {chapter}{\numberline {15}基于配对的多项式承诺}{41}{chapter.15}%
 \hypertarget {chap-15}{}
-\contentsline {section}{\numberline {15.1}密码学背景}{39}{section.15.1}%
-\contentsline {chapter}{\numberline {16}多项式承诺总结}{41}{chapter.16}%
+\contentsline {section}{\numberline {15.1}密码学背景}{41}{section.15.1}%
+\contentsline {section}{\numberline {15.2}KZG：需要配对和可信设置的单变量多项式承诺}{41}{section.15.2}%
+\contentsline {section}{\numberline {15.3}扩展KZG到多线性多项式}{41}{section.15.3}%
+\contentsline {section}{\numberline {15.4}Dory：对数验证开销的透明方案}{41}{section.15.4}%
+\contentsline {chapter}{\numberline {16}多项式承诺总结}{43}{chapter.16}%
 \hypertarget {chap-16}{}
-\contentsline {chapter}{\numberline {17}线性PCP和简洁论证}{43}{chapter.17}%
+\contentsline {section}{\numberline {16.1}同态承诺多项式的批量求值}{43}{section.16.1}%
+\contentsline {section}{\numberline {16.2}稀疏多项式的承诺方案}{43}{section.16.2}%
+\contentsline {section}{\numberline {16.3}多项式承诺方案：优点和缺点}{43}{section.16.3}%
+\contentsline {section}{\numberline {16.4}其他方法}{43}{section.16.4}%
+\contentsline {chapter}{\numberline {17}线性PCP和简洁论证}{45}{chapter.17}%
 \hypertarget {chap-17}{}
-\contentsline {chapter}{\numberline {18}SNARK组合和递归}{45}{chapter.18}%
+\contentsline {section}{\numberline {17.1}概述：来自“长”，结构化PCP的交互论证}{45}{section.17.1}%
+\contentsline {section}{\numberline {17.2}不实例化同时对线性PCP承诺}{45}{section.17.2}%
+\contentsline {section}{\numberline {17.3}首个对算术电路可满足性的线性PCP}{45}{section.17.3}%
+\contentsline {section}{\numberline {17.4}GGPR： $O\left (|\mathbb {F}|^S\right .$}{45}{section.17.4}%
+\contentsline {section}{\numberline {17.5}非交互性和公开可验证性}{45}{section.17.5}%
+\contentsline {chapter}{\numberline {18}SNARK组合和递归}{47}{chapter.18}%
 \hypertarget {chap-18}{}
-\contentsline {chapter}{\numberline {19}实用论证系统鸟瞰}{47}{chapter.19}%
+\contentsline {section}{\numberline {18.1}组合两个不同的SNARK}{47}{section.18.1}%
+\contentsline {section}{\numberline {18.2}SNARK更深度的组合}{47}{section.18.2}%
+\contentsline {section}{\numberline {18.3}SNARK组合的其他应用}{47}{section.18.3}%
+\contentsline {section}{\numberline {18.4}通过递归对迭代计算的SNARK}{47}{section.18.4}%
+\contentsline {section}{\numberline {18.5}通过同态承诺的对迭代计算的SNARK}{47}{section.18.5}%
+\contentsline {chapter}{\numberline {19}实用论证系统鸟瞰}{49}{chapter.19}%
 \hypertarget {chap-19}{}
-\contentsline {chapter}{Bibliography}{49}{chapter*.2}%
+\contentsline {section}{\numberline {19.1}SNARK 的分类}{49}{section.19.1}%
+\contentsline {section}{\numberline {19.2}不同方法的优缺点}{49}{section.19.2}%
+\contentsline {section}{\numberline {19.3}影响具体效率的其他问题}{49}{section.19.3}%
+\contentsline {chapter}{Bibliography}{51}{chapter*.2}%
