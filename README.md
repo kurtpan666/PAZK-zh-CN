@@ -7,6 +7,7 @@ https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html
 
 
 ## 翻译日志
+- 0515 完成第一章开头部分：逐章大纲，首次阅读可跳过的材料
 - 0514 完成第一章开头部分：阅读本书的建议
 - 0513 完成 1.2.3
 - 0512 完成 1.2.1 

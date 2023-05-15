@@ -5,12 +5,12 @@
 \contentsline {subsubsection}{本书中信息论安全模型的顺序}{6}{chapter.1}%
 \contentsline {subsubsection}{逐章大纲}{7}{chapter.1}%
 \contentsline {subsubsection}{阅读本书的建议}{7}{chapter.1}%
-\contentsline {subsubsection}{首次阅读可跳过的材料}{7}{chapter.1}%
+\contentsline {subsubsection}{首次阅读可跳过的材料}{8}{chapter.1}%
 \contentsline {section}{\numberline {1.1}数学证明}{8}{section.1.1}%
-\contentsline {section}{\numberline {1.2}我们将研究哪些非传统证明？}{8}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}交互式证明 （IP）}{8}{subsection.1.2.1}%
+\contentsline {section}{\numberline {1.2}我们将研究哪些非传统证明？}{9}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}交互式证明 （IP）}{9}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}论证系统}{9}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}多证明者交互式证明（MIP）/概率可检验证明（PCP）等}{9}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.3}多证明者交互式证明（MIP）/概率可检验证明（PCP）等}{10}{subsection.1.2.3}%
 \contentsline {chapter}{\numberline {2}随机性的力量：指纹和 Freivalds 算法}{11}{chapter.2}%
 \hypertarget {chap-2}{}
 \contentsline {chapter}{\numberline {3}定义和技术预备知识}{13}{chapter.3}%
@@ -19,7 +19,11 @@
 \contentsline {chapter}{\numberline {4}交互式证明系统}{15}{chapter.4}%
 \hypertarget {chap-4}{}
 \contentsline {section}{\numberline {4.1}和校验协议}{15}{section.4.1}%
-\contentsline {section}{\numberline {4.2}GKR协议及其高效实现}{15}{section.4.2}%
+\contentsline {section}{\numberline {4.2}和校验的首个应用：$^\# \mathrm {SAT} \in \mathbf {I P}$}{15}{section.4.2}%
+\contentsline {section}{\numberline {4.3}第二个应用：一个清点图中三角形数量的简单IP}{15}{section.4.3}%
+\contentsline {section}{\numberline {4.4}第三个应用：对矩阵乘法的非常高效的IP}{15}{section.4.4}%
+\contentsline {section}{\numberline {4.5}对矩阵乘法的非常高效的IP的应用}{15}{section.4.5}%
+\contentsline {section}{\numberline {4.6}GKR协议及其高效实现}{15}{section.4.6}%
 \contentsline {chapter}{\numberline {5}使用Fiat-Shamir得到公开可验证非交互式论证}{17}{chapter.5}%
 \hypertarget {chap-5}{}
 \contentsline {chapter}{\numberline {6}前端：将计算机程序转化为电路}{19}{chapter.6}%
@@ -31,7 +35,10 @@
 \contentsline {section}{\numberline {8.1}一个对电路可满足性的高效MIP}{23}{section.8.1}%
 \contentsline {chapter}{\numberline {9}PCP和简洁论证系统}{25}{chapter.9}%
 \hypertarget {chap-9}{}
-\contentsline {section}{\numberline {9.1}将PCP编译为简洁论证系统}{25}{section.9.1}%
+\contentsline {section}{\numberline {9.1}PCP：定义及和MIP的关系}{25}{section.9.1}%
+\contentsline {section}{\numberline {9.2}将PCP编译为简洁论证系统}{25}{section.9.2}%
+\contentsline {section}{\numberline {9.3}基于MIP的首个多项式长度的PCP}{25}{section.9.3}%
+\contentsline {section}{\numberline {9.4}对算术电路可满足性的准线性长度PCP}{25}{section.9.4}%
 \contentsline {chapter}{\numberline {10}交互式预言证明}{27}{chapter.10}%
 \hypertarget {chap-10}{}
 \contentsline {section}{\numberline {10.1}多项式IOP和相应的简洁论证系统}{27}{section.10.1}%

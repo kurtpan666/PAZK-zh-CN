@@ -36,6 +36,14 @@ Alice 如何让 Bob 相信她知道 $h$ 下 $z$ 的原像？ 一个简单的证�
 
 
 \subsubsection{逐章大纲}
+第 \ref{chp:02Randomness} 章通过两个简单但重要的案例研究，使读者熟悉随机性和概率证明系统的威力。 第 \ref{chp:03Definition} 章介绍了对整书有用的技术概念。 第 \ref{chp:04IP} 章描述了交互式证明的前沿。 第 \ref{chp:05FS} 章描述了 Fiat-Shamir 转换，一种用于从密码学协议中去除交互性的关键技术。 第\ref{chp:07argfromip} 章介绍了多项式承诺方案的概念，并将其与第 \ref{chp:04IP} 章的 IP 和第 \ref{chp:05FS} 章的 Fiat-Shamir 转换相结合，得到了本书中的第一个 SNARK。 第 \ref{chp:08MIP} 章描述了MIP的前沿及其派生的SNARK。 
+\ref{chp:09PCP}-\ref{chp:10IOP}章 描述了 PCP 和 IOP，以及从中派生的 SNARK。
+
+第 \ref{chp:06FrontEnds} 章是一个独立的章节，描述了以适用于比如说SNARK 的应用的格式来对计算机程序进行表示的技术。
+
+第 \ref{chp:11ZKP} 章介绍了零知识的概念。 第 \ref{chp:12sigma} 章描述了一种特别简单的的零知识论证类型，称为$\Sigma$协议，并使用它们来导出承诺方案。 这些承诺方案是后续章节中介绍的更复杂协议的重要组成部分。 第 \ref{chp:13CP} 章描述了将非零知识协议转换为零知识协议的高效技术。 第 \ref{chp:14PCDL}-\ref{chp:16PC} 章介绍实用的多项式承诺方案，可用于将任何 IP、MIP 或 IOP 转换为简洁零知识知识论证 (zkSNARK)。 第 \ref{chp:17LPCP} 章介绍了设计 zkSNARK 的最后一种方法，即通过线性PCP。 第\ref{chp:18Recursion}章描述了如何递归组合 SNARK 以降低开销并实现重要的原语，例如所谓的\dotemph{增量可验证计算}。 最后，第 \ref{chp:19SNARK} 章详细介绍了实用 zkSNARKs 的设计范式的分类，并描述了每种方法的优缺点。
+
+
 \subsubsection{阅读本书的建议} 本书当然可以愉快地从头读到尾，但非线性路径可能会是一个更快地提供全面了解 SNARK 设计技术的途径。 为此提出的建议如下。
 
 第 \ref{chp:02Randomness} 章和第 \ref{chp:03Definition} 章介绍了贯穿所有后续章节的基础技术概念（有限域、IP、论证、低次扩展、Schwartz-Zippel 引理等），不熟悉这些概念的读者不应跳过。
@@ -54,9 +62,10 @@ Alice 如何让 Bob 相信她知道 $h$ 下 $z$ 的原像？ 一个简单的证�
 本书网页\footnote{\url{https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html}}上发布的一系列三个视频提供了关于多项式 IOP 和多项式承诺的概述。 读者可能会发现在详细阅读第 \ref{chp:04IP}-\ref{chp:10IOP} 章之前观看这些视频会很有用。
 
 
+\subsubsection{首次阅读可跳过的材料} 
+\ref{4.2}-\ref{4.5} 节专门介绍了和校验协议的详细示例应用，并解释了如何在其中高效实现证明者。 虽然这些部分包含有趣的结果并且有助于熟悉和检查协议，但后续章节并不依赖于此。 同样，关于 Fiat-Shamir 转换的第 \ref{chp:05FS} 章和关于前端的第 \ref{{chp:06FrontEnds}} 章在第一次阅读时是可选的。 \ref{9.3} 和 \ref{9.4} 节详细介绍了主要具有历史意义的 PCP，可以跳过。
 
-\subsubsection{首次阅读可跳过的材料} Sections 4.2-4.5 are devoted to detailed example applications of the sum-check protocol and explaining how to efficiently implement the prover within it. While these sections contain interesting results and are useful for familiarizing oneself with the sum-check proto- col, subsequent chapters do not depend on them. Similarly, Chapter 5 on the Fiat-Shamir transformation and Chapter 6 on front-ends are optional on a first reading. Sections 9.3 and 9.4 provide PCPs that are mainly of historical interest and can be skipped.
-Chapters 11 and 13 offer treatments of zero-knowledge that largely stand on their own. Similarly, Chapter 18 discusses SNARK composition and stands on its own.
+第 \ref{chp:11ZKP} 章和第 \ref{chp:13CP} 章提供了零知识处理方法，大部分是独立的。 同样，第 \ref{chp:18Recursion} 章讨论了 SNARK 的组合，也是独立的。
 
 
 

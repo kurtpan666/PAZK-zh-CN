@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.31)  14 MAY 2023 09:08
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.31)  15 MAY 2023 09:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1571,7 +1571,7 @@ Package minitoc Info: I0033
 Chapter 1.
 [5
 
-] [6]
+] [6] [7]
 
 Package fontspec Warning: Font "STFangsong" does not contain requested Script
 (fontspec)                "CJK".
@@ -1599,7 +1599,10 @@ Package fontspec Info: Font family 'STFangsong(0)' created for font
 (fontspec)             <->"STFangsong/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-[7] [8] [9]) (./chapter/02Randomness.tex [10]
+
+LaTeX Warning: Reference `{chp:06FrontEnds}' on page 8 undefined on input line 66.
+
+[8] [9]) (./chapter/02Randomness.tex [10]
 Chapter 2.
 ) (./chapter/03Definition.tex [11
 
@@ -1611,6 +1614,22 @@ Chapter 3.
 
 ]
 Chapter 4.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\in' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
 ) (./chapter/05FS.tex [15] [16
 
 ]
@@ -1715,18 +1734,26 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
 (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A9780722D0BF1F37D91B42F6ED7FECB2;4751.
+(rerunfilecheck)             Checksum: 9C831B67863DDBB92395E75DCCA01D21;6050.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40360 strings out of 476683
- 817073 string characters out of 5804047
+ 40423 strings out of 476683
+ 818697 string characters out of 5804047
  1878018 words of memory out of 5000000
- 59645 multiletter control sequences out of 15000+600000
- 537613 words of font info for 177 fonts, out of 8000000 for 9000
+ 59700 multiletter control sequences out of 15000+600000
+ 543509 words of font info for 205 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  96i,14n,100p,2292b,4772s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
