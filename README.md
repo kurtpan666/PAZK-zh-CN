@@ -7,6 +7,7 @@ https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html
 
 
 ## 翻译日志
+- 0516 章节名和Bibliography改为中文
 - 0515 完成第一章开头部分：逐章大纲，首次阅读可跳过的材料
     - 完成【第一章】翻译
     - 完成【二级标题】

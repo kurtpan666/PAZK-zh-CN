@@ -23,6 +23,7 @@
 
 
 
+
 %\renewcommand{\baselinestretch}{1.05}
 \usepackage{amsmath,amsthm,amssymb,mathrsfs,amsfonts,dsfont}
 \usepackage{epsfig,graphicx}
@@ -104,14 +105,22 @@ delim_0 "\\nobreak\\dotfill"
 %%%%%%%%%%%%%%%% ToC %%%%%%%%%%%%%%%%%%%%%
 % Link Chapter title to ToC: https://tex.stackexchange.com/questions/32495/linking-the-section-text-to-the-toc
 \usepackage[explicit]{titlesec}
-\titleformat{\chapter}[display]
-  {\normalfont\huge\bfseries}{\chaptertitlename\ {\thechapter}}{20pt}{\hyperlink{chap-\thechapter}{\Huge#1}
+% \titleformat{\chapter}[display]
+%   {\normalfont\huge\bfseries}{\chaptertitlename\ {\thechapter}}{20pt}{\hyperlink{chap-\thechapter}{\Huge#1}
+% \addtocontents{toc}{\protect\hypertarget{chap-\thechapter}{}}}
+% \titleformat{name=\chapter,numberless}
+%   {\normalfont\huge\bfseries}{}{-20pt}{\Huge#1}
+
+  \titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}{第\,\thechapter\,章}{20pt}{\hyperlink{chap-\thechapter}{\Huge#1}
 \addtocontents{toc}{\protect\hypertarget{chap-\thechapter}{}}}
-\titleformat{name=\chapter,numberless}
-  {\normalfont\huge\bfseries}{}{-20pt}{\Huge#1}
+
+
 
 \titleformat{\subsubsection}[runin]
   {\normalfont\large\bfseries}{}{}{#1}[]
+
+
 
 
 %%%%%%%%%%%%%%%%%%% fancyhdr %%%%%%%%%%%%%%%%%
@@ -141,6 +150,8 @@ delim_0 "\\nobreak\\dotfill"
 
 \addbibresource{bib.bib}
 
+\DefineBibliographyStrings{english}{bibliography={参考文献}}
+
 \newbibmacro{string+doiurlisbn}[1]{%
   \iffieldundef{doi}{%
     \iffieldundef{url}{%
@@ -160,6 +171,8 @@ delim_0 "\\nobreak\\dotfill"
     \href{http://dx.doi.org/\thefield{doi}}{#1}%
   }%
 }
+
+
 
 % https://tex.stackexchange.com/questions/94089/remove-quotes-from-inbook-reference-title-with-biblatex
 \DeclareFieldFormat[article,incollection,inproceedings,book,misc]{title}{\usebibmacro{string+doiurlisbn}{\mkbibemph{#1}}}

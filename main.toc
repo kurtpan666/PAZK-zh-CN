@@ -1,3 +1,4 @@
+\hypertarget {chap-0}{}
 \contentsline {chapter}{\numberline {1}引言}{7}{chapter.1}%
 \hypertarget {chap-1}{}
 \contentsline {subsubsection}{背景和上下文}{8}{chapter.1}%
@@ -130,4 +131,5 @@
 \contentsline {section}{\numberline {19.1}SNARK 的分类}{49}{section.19.1}%
 \contentsline {section}{\numberline {19.2}不同方法的优缺点}{49}{section.19.2}%
 \contentsline {section}{\numberline {19.3}影响具体效率的其他问题}{49}{section.19.3}%
-\contentsline {chapter}{Bibliography}{51}{chapter*.2}%
+\hypertarget {chap-19}{}
+\contentsline {chapter}{参考文献}{51}{chapter*.2}%
