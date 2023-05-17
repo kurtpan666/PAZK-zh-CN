@@ -9,6 +9,7 @@ https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html
 
 
 ## 翻译日志
+- 得知李星老师团队已经完成本书翻译初稿。协作计划需要调整。社区基于李星老师初稿进行review，确保技术名词一致性。
 - 0517 启动Project进行翻译任务分配。
     - 开始第11章翻译
     - 开始整合第2与19章之前的内容
