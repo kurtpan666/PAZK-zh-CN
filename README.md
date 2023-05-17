@@ -5,8 +5,13 @@ Proofs, Arguments, and Zero-Knowledge
 
 https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html
 
+- 还需要5个个人/团队来对相应章节来进行翻译！感兴趣者可微信我或这里issue来联系我加入。
+
 
 ## 翻译日志
+- 0517 启动Project进行翻译任务分配。
+    - 开始第11章翻译
+    - 开始整合第2与19章之前的内容
 - 0516 章节名和Bibliography改为中文
 - 0515 完成第一章开头部分：逐章大纲，首次阅读可跳过的材料
     - 完成【第一章】翻译
