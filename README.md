@@ -5,10 +5,10 @@ Proofs, Arguments, and Zero-Knowledge
 
 https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html
 
-- 还需要5个个人/团队来对相应章节来进行翻译！感兴趣者可微信我或这里issue来联系我加入。
 
 
 ## 翻译日志
+- 0523 李星老师团队会在7月底左右完成本书翻译终稿。届时或会开放社区review名额，有意愿参与者或团队到时可通过此群联系我。 本项目Archive。
 - 0518 23号align with李星团队，之前本项目staging。
 - 得知李星老师团队已经完成本书翻译初稿。协作计划需要调整。社区基于李星老师初稿进行review，确保技术名词一致性。
 - 0517 启动Project进行翻译任务分配。
